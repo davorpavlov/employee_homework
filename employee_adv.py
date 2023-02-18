@@ -4,14 +4,15 @@ employees = [
 ['Mauro', 'Maurović', 'CEO', 3000, 'mauro.maurovic@firma.com', '095225883']
 ]
 
-# Funkcija za ispisivanje podataka o djelatniku(koristimo index)
 def employee_data(employee):
-  print('First name and last name:', employee[0], employee[1])
-  print('Work place:', employee[2])
-  print('Salary:', employee[3])
-  print('Email:', employee[4])
-  print('Phone number:', employee[5])
-  print()
+    match employee:
+        case [ime, prezime, radno_mjesto, placa, email, telefon]:
+            print(f"First name and last name: {ime} {prezime}")
+            print(f"Work place: {radno_mjesto}")
+            print(f"Salary: {placa}")
+            print(f"Email: {email}")
+            print(f"Phone number: {telefon}")
+            print()
 
 # Ispisivanje podataka o svakom djelatniku
 for employee in employees:
