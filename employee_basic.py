@@ -4,7 +4,7 @@ surname1 = 'Goric'
 position1 = 'Accountant'
 salary1 = 1500
 email1 = 'goran.goric@firma.com'
-phone_number1 = '0981234567'
+phone_number1 = '0911234567'
 
 # Data of the second employee
 name2 = 'Darko'
