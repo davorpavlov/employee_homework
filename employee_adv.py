@@ -13,7 +13,6 @@ def employee_data(employee):
             print(f"Email: {email}")
             print(f"Phone number: {telefon}")
             print()
-
-# Ispisivanje podataka o svakom djelatniku
+            
 for employee in employees:
   employee_data(employee)
