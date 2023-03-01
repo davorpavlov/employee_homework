@@ -22,5 +22,3 @@ numbers[3] = 50
 
 for _ in numbers:
     print(_)
-    
-text
