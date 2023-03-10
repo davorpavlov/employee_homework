@@ -22,5 +22,7 @@ for i in range(10,21):
 
 print(new_list)
 
+ 
 new_list = numbers[10:21:2]
 print(new_list)
+
